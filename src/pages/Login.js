@@ -62,7 +62,7 @@ const Login = () => {
         <MDBContainer className="p-3 my-5 d-flex flex-column ">
           <MDBInput
             wrapperClass="mb-4"
-            label="Email address"
+            label="Email address or username"
             id="form1"
             type="email"
             onChange={(e) => setemail(e.target.value)}
