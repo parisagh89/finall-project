@@ -1,0 +1,196 @@
+.setting_navcontainer{
+    display: flex;
+    justify-content: flex-start;
+     width: 27rem;
+  }
+.settingNav{
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top:2rem ;
+    border: 4px solid #f6f6f8;
+
+    border-radius: 20px;
+    width: 27rem;
+    margin-left: 1.5rem;
+
+
+  
+  }
+  .fullwidth{
+    width: 100%;
+ 
+  }
+  .setting_navItem{
+    width: 88%;
+    text-align: left;
+    padding: 1rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+    margin: 0 20px;
+    border-bottom: 1px solid #e1e1ec;;
+    
+    position: relative;
+
+  }
+  .setting_navcontainer img{
+    width: 20rem;
+    padding: 0.5rem;
+  }
+  .settin_Ricon{
+    position: absolute;
+   right: 0px
+      
+  }
+  .fullwidth_top:hover{
+    background-color: #f1f2f4;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+
+
+  }
+  .fullwidth:hover{
+    background-color: #f1f2f4;
+   
+
+
+  }
+  .fullwidth_botton:hover{
+    background-color: #f1f2f4;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+
+
+  }
+  .setting_container{
+    display: flex;
+   flex-direction: row;
+  
+  }
+ 
+  /* ------------------------changeprofile-------------- */
+  .chprofile_container{
+    display: flex;
+    justify-content: center;
+
+  }
+  .chprofile{
+    padding:2rem 5rem 0 5rem;
+    height: 100%;
+  margin:2rem ;
+ 
+
+   border:1px solid #f6f6f8; 
+   border-radius: 20px;
+   background-color: #f1f2f4;
+  }
+  @media screen and (max-width:992px) {
+    .setting_container{
+     flex-direction: column;
+    justify-content: flex-start;
+       
+    }
+
+    .proinput{
+      width: 3rem;
+    }
+    .pass_container{
+      justify-content: flex-start;
+    }
+    .chprofile_container{
+      width: 100%;
+    }
+  }
+  /* ---------------------------------------password------------ */
+  .pass_container{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+    margin:2rem ;
+
+  }
+  .chpassword{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:1px solid #f6f6f8; 
+    border-radius: 20px;
+    /* background-color: #fbb7b0; */
+    background-color: #f1f2f4;
+    width: 30rem;
+    min-height: 20rem;
+
+  }
+ .passwordform{
+  display: flex;
+  flex-direction: column;
+
+
+ }
+.pass_item{
+  width: 20rem;
+  padding:0 1rem;
+}
+
+.chpassword{
+
+}
+@media screen and (max-width:992px) {
+  .setting_container{
+   flex-direction: column;
+  
+     
+  }
+  .chprofile {
+    width: fit-content;
+    padding: 0;
+    justify-content: flex-start;
+
+  }
+  .proinput{
+    width: 3rem;
+  }
+  .pass_container{
+    justify-content: flex-start;
+  }
+  .chpassword{
+    justify-content: flex-start;
+    width:min-content;
+    padding:1rem;
+     
+  }
+  .pass_item{
+    width: 17rem;
+    padding:0 1rem;
+  }
+}
+/* ----------------upload avatar--------------- */
+.avatar_container{
+display: flex;
+justify-content: center;
+align-items: center;
+width: 100%;
+margin:2rem ;
+
+
+}
+.avatar_form{
+  border:1px solid #f6f6f8; 
+  border-radius: 20px;
+  background-color: #f1f2f4;
+  width: 30rem;
+  padding: 2rem;
+}
+@media screen and (max-width:992px) {
+  .avatar_container{
+   
+  justify-content: flex-start;
+     
+  }
+  .avatar_form{
+    width: 100%;
+    height: 100%;
+  }
+}

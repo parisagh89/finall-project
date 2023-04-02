@@ -1,0 +1,30 @@
+.login_container{
+    width: 25rem;
+    border: 3px solid #E9E8E8;
+    border-radius: 40px;
+
+}
+.register{
+    border: 1px solid #ffeed5;
+    border-radius: 20px;
+    color: blue;
+    background-color: #ffeed5;
+    padding: 0.5rem;
+}
+.register:hover{
+    color: #ffeed5;
+    background-color: blue;
+    border: 1px solid blue;
+
+}
+.permition{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:1px solid #f6f6f8; 
+    border-radius: 20px;
+    background-color: #f1f2f4;
+    width: 40rem;
+    min-height: 20rem;
+
+  }

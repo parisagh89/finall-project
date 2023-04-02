@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.containerp{
+       display: flex;
+       justify-content: center;
+    padding-top: 10rem;
+  
+}
+.sections{
+display: flex;
+justify-content: flex-start;
+width: 70rem;
+border-radius: 40px;
+padding: 1rem;
+height: auto;
+border: 3px solid #E9E8E8;
+
+}
+.secItem{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    color: #913175;
+
+}
+.leftSec{
+    background-color: #FFF1DC;
+    border: 1px solid #FFF1DC;
+    border-radius: 40px;
+    padding: 1rem;
+    width: 35%;
+    height: min-content;
+    text-align: center;
+
+
+
+
+}
+.lefsecColor{
+    height: 100%;
+    width: 1rem;
+    background-color: #3F0071;
+
+}
+.productImg{
+ padding: 3rem;
+}
+.productImg{
+   
+   height: 70vh;
+   width: 30rem;
+
+}
+.format{
+    
+    letter-spacing: 1px;
+    border-bottom: 1px solid #F9B5D0;
+
+}
+.countInStock{
+    margin: 0 4px;
+    border-top: 1px solid #913175;
+    border-bottom: 1px solid #913175;
+    text-align: center;
+
+
+}
+.price{
+    color: #E90064;
+   
+    
+}
+
+ .product{
+    background: #EEEEEE;
+ width: 60%;
+    display: flex;
+    border-radius: 10px;
+
+}
+
+.gallery img {
+
+    max-height: 100vh;
+    width: 340px;
+    height: 450px;
+   
+} 
+ .details{
+
+    padding: 40px;
+} 
+
+
+.circle{
+    border-radius: 50%;
+    Border:1px solid black;
+    margin-left: 1rem;
+    padding: 1px 5px;
+}
+@media screen and (max-width:576px) {
+    .product{
+flex-direction: column; 
+width: 100%;   }
+.gallery img {
+    width: 100%;
+
+}}
+.btndiv{
+    box-shadow: 0 1px 5px rgb(0 0 0 / 20%);
+    width: 10rem;
+    display: flex;
+    justify-content: space-around;
+    padding: 0.5rem;
+    border-radius: inherit;
+    margin: 0 auto;
+   
+}
+.pointer{
+    cursor: pointer;
+}
+.pointer:hover{
+    transform: scale(1.3);
+}
+@media screen and (max-width:992px) {
+
+.sections{
+    flex-wrap: wrap;
+}}
+@media screen and (max-width:768px) {
+   .sections{
+    flex-direction: column-reverse;
+   }
+   .leftSec{
+    width: 100%;
+   }
+   .secItem{
+    padding-left:3rem ;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+   }
+
+}
