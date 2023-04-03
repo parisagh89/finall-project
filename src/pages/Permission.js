@@ -8,7 +8,7 @@ export default function Permission() {
       <div className="section d-flex justify-content-center align-items-center">
         <div className=" permition fs-4">
           {" "}
-          "You do not have permission to access this page"{" "}
+          "oops!You do not have permission to access this page"{" "}
         </div>{" "}
       </div>
     </div>
